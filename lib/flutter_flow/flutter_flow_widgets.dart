@@ -91,9 +91,7 @@ class _FFButtonWidgetState extends State<FFButtonWidget> {
             try {
               await widget.onPressed();
             } finally {
-              if (mounted) {
-                setState(() => loading = false);
-              }
+              setState(() => loading = false);
             }
           }
         : () => widget.onPressed();
