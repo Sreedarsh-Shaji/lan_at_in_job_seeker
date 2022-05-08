@@ -1,4 +1,4 @@
-package In.At.Lan
+package com.flutterflow.lanatin
 
 import io.flutter.embedding.android.FlutterActivity
 
